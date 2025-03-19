@@ -1,10 +1,7 @@
 // Write your function here
 function isOdd(num){
-    if (!(num % 2 == 0)){
-        return true;
-    } else {
+    if (!(num % 2 == 0)) return true;
         return false;
-    }
 }
 
 console.log(isOdd(10));

@@ -1,5 +1,7 @@
 function filterOddLengthWords(words) {
-    // your code here
+    return words.filter(function(word1){
+        return word1.length % 2 !== 0;
+    })
     
 }
 

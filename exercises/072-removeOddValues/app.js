@@ -15,5 +15,6 @@ let obj = {
   c: 4,
   d: 1
 };
+
 removeOddValues(obj);
 console.log(obj); // --> { a: 2, c: 4 }

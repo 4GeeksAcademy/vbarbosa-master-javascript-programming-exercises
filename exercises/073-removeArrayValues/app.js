@@ -13,5 +13,6 @@ let obj = {
     b: 2,
     c: ['hi', 'there']
   }
+  
   removeArrayValues(obj);
   console.log(obj); // --> { b: 2 }
